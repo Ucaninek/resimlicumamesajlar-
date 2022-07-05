@@ -1,2 +1,2 @@
-# resimlicumamesajlar-
-all of your holy friday needs.
+# resimlicumamesajlari
+a discord bot that sends custom randomly-made holy friday images.
