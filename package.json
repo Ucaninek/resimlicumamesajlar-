@@ -1,0 +1,26 @@
+{
+  "name": "cumamesajlari",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --ignore ./db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.9.1",
+    "chalk": "^4.1.2",
+    "discord.js": "^12.5.3",
+    "fs": "^0.0.1-security",
+    "rgb-hex": "^4.0.0",
+    "save": "^2.5.0",
+    "sharp": "^0.30.4",
+    "simplest.db": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
