@@ -9,9 +9,6 @@ module.exports = {
     cid: 0,
     roles: [],
     async execute(message, _args, bot) {
-        const fs = require('fs');
-        const { Message } = require('discord.js');
-        const chalk = require('chalk');
         const DB = require('simplest.db').JS0N;
         const db = new DB({
             path: './db.json' // .json or .sqlite
